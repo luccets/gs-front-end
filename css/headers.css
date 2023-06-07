@@ -30,3 +30,17 @@ h2{
 a:hover{
     color: #607d3b !important;
 }
+
+/* rodapé  */
+
+.rodape-menu ul{
+    display: flex;
+    gap: 40px;
+}
+
+.rodape-menu a{
+    color: #dac8bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
