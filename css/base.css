@@ -175,7 +175,7 @@ url(../images/img\ problema.png);
 
 /* estrutura do html  */
 html{
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 ul,ol{
