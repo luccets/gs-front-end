@@ -15,28 +15,7 @@
 /* fim do header  */
 
 /* começo do container 1  */
-.container1{
-    width: 100%;
-    height: 114vh;
-    background-repeat: none;
-    background-size: cover;
-    background-position: 50%;
-    background-attachment: fixed;
-    background-image:linear-gradient( #3a4311, #607d3b);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.bg-image1{
-    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)),
-    url(../images/imagem\ inicial.png)
-}
-/* fim do container 1  */
-
-/* começo do container 2  */
-.container2 {
+.container1 {
     width: 100%;
     height: 114vh;
     background-repeat: none;
@@ -57,16 +36,53 @@
     flex-direction: column;
 }
 
-.bg-image2{
+.bg-image1{
 background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)),
 url(../images/img\ problema.png);
+}
+/* fim do container 1  */
+
+/* começo do container 2  */
+.container2{
+    width: 100%;
+    min-height: 114vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.bg-image2 {
+    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)), url();
 }
 /* fim do container 2  */
 
 /* começo do container 3  */
-.container3 {
+.container3{
     width: 100%;
-    height: 112vh;
+    height: 114vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-image:linear-gradient( #3a4311, #607d3b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-image3{
+    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)),
+    url(../images/imagem\ inicial.png)
+}
+/* fim do container 3  */
+
+/* começo do container 4  */
+.container4 {
+    width: 100%;
+    height: 114vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,27 +93,13 @@ url(../images/img\ problema.png);
     padding: 0px 100px 0px 100px;
 }
 
-.bg-image3 {
-    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)), url(../images/plantação\ futurista.png);
+.bg-image4 {
+    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)), url(../images/zé.jfif);
     
 }
-/* fim do container 3  */
-
-/* começo do container 4  */
-.container4{
-    width: 100%;
-    min-height: 114vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.bg-image4 {
-    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)), url();
-}
 /* fim do container 4  */
+
+
 
 /* começo do container 5  */
 .container5 {
@@ -112,28 +114,17 @@ url(../images/img\ problema.png);
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
-.login{
-    width: 500px;
-    height: 500px;
-    background-image: linear-gradient(to right, #3a4311, #607d3b); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 50px;
-    border-color: #000;
-    border: solid;
-    padding-bottom: 5px;
+.bg-image5 {
+    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)), url(../images/img\ irrigação.png);
 }
 /* fim do container 5  */
 
 /* começo do container 6  */
 .container6{
     width: 100%;
-    height: 114vh;
+    height: 115vh;
     background-repeat: none;
     background-size: cover;
     background-position: 50%;
@@ -145,40 +136,21 @@ url(../images/img\ problema.png);
     flex-direction: column;
 }
 
-.contato{
-    width: 500px;
-    height: 500px;
-    background-image: linear-gradient(to left,#5a431b, #607d3b);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 50px;
-    border-color: #000;
-    border: solid;
-}
-
-    .msg{
-        padding-left: 50px;
-    }
-
-.container6 h1{
-    color:black;
-    text-align: center;
-    font-size: 48px;
-}
-
 .bg-image6{
-    background-image: linear-gradient(to right,#3a4311,#607d3b);
+    background-image: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .8)), url(../images/img\ bonita.png);
 }
 /* fim do container 6  */
 
 /* começo do rodape  */
-.container{
+.container7{
     width: 100%;
     height: 14vh;
     background-color: #3a5311;
     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 /* fim do rodape  */
 
@@ -217,35 +189,11 @@ p {
     font-size: 15px;
     font-weight: 600;
 }
+
 form label{
     color: black;
     font-weight: bold;
     display: flex;
     font-size: 26px;
     align-items: center;
-}
-
-/* começo das info do forms  */
-input {
-    width: 200px;
-    color: #000;
-    border-radius: 45px;
-    padding: 5px;
-}
-
-input:hover{
-    border-color: #3a4311;
-    box-shadow: 5px 0 10px gold;
-}
-
-.submit{
-    margin-top: 20px;
-    width: 30%;
-    font-size: 16px;
-}
-
-.submit:hover{
-    color: #000;
-    font-size: 20px;
-    transition: .5s;
 }
